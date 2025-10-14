@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+.Parent {
+  background-color: rgb(204, 203, 202);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Card {
+  width: 300px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.top img {
+  border: solid 1px grey;
+  padding: 7px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  color: gray;
+  border-radius: 8px;
+  border: solid 1px gray;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+
+.middle p {
+  font-size: large;
+}
+
+.middle span {
+  font-size: small;
+  color: gray;
+}
+.middle-post {
+  display: flex;
+  gap: 10px;
+}
+
+.middle h2 {
+  margin-top: 10px;
+}
+
+.middle-post h5 {
+  background-color: rgb(214, 213, 213);
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.buttom {
+  border-top: 1px solid rgb(179, 176, 176);
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttom button {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
